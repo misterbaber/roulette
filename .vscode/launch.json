@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "javafxTemplate_9b3165ce"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "roulette_ac3f1a43",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
